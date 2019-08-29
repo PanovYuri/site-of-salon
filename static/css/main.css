@@ -1,0 +1,58 @@
+.block_of_site {
+    margin-top: 25px;
+}
+
+.title_of_block {
+    text-align: center;
+}
+
+.price {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.price li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    border-bottom: 3px dotted rgba(131, 131, 131, 0.527);
+    font-size: 20px;
+}
+
+.price li:not(:first-child) {
+    margin-top: 20px;
+}
+
+.site_logo {
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+}
+
+.btn_block {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.column {
+    margin: 10px;
+}
+
+.card-image img {
+    object-fit: cover;
+}
+
+.btn_block_inst {
+    text-align: center;
+}
+
+.first_block {
+    background-image: url(../img/main_back-min_new.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.info_comp {
+    height: 500px;
+    border-radius: 20px;
+    background-color: white;
+}
